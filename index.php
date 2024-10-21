@@ -20,7 +20,7 @@
 </style>
 
 </div>
-    <h2>lo mas nuevo</h2>
+    <h2>lo mas nuevo xD</h2>
     <?php
         while($fila=mysqli_fetch_array($datos)){ 
             $foto=mysqli_fetch_assoc($producto->obtenerportada($fila['idproducto']));
